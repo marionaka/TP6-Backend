@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  text-decoration: underline;
+  color: #333333;
+}
+
+.tableContainer {
+  margin: auto;
+  width: 80%;
+}
+
+.productTable {
+  border: 2px solid #333333;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+th {
+  border-bottom: solid 1.5px #333333;
+  color: #333333;
+}
+
+tr {
+  border-bottom: 2px dashed #333333;
+}
+
+td {
+  padding-inline: 10px;
+  border-bottom: dashed #333333 1px;
+}
+
+#chatTitle {
+  text-align: center;
+  font-family: monospace;
+  font-size: 2.5rem;
+  color: #333333;
+}
+
+.chatContainer {
+  background-color: #e6e6e6;
+  margin-inline: auto;
+  width: 60%;
+}
+
+.messageLogsCont {
+  border: dashed 3px #999999;
+}
+
+.chatBoxCont {
+  display: flex;
+  padding: 5px;
+  justify-content: space-around;
+}
+
+#chatBox {
+  width: 90%;
+  height: 50px;
+  background-color: #f7f7f7;
+  color: #333333;
+}
+
+#sendBtn {
+  width: 100px;
+  background-color: #99ccff;
+  font-size: 1.2em;
+  font-family: "Calibri", sans-serif;
+  font-weight: 800;
+  color: #ffffff;
+}
